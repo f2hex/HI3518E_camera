@@ -179,4 +179,3 @@ And here is the content of the root dir in the mount point `web-x`:
 -rwxr-xr-x 1      556      556  528 Sep 26  2014 yy11.jpg
 ```
 
-and this is the directory listing 
