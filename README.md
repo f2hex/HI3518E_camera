@@ -1,4 +1,18 @@
 # HI3518E_camera
+
+## Ports
+The ports that are open on this device are:
+```
+PORT      STATE SERVICE
+80/tcp    open  http
+554/tcp   open  rtsp
+9527/tcp  open  H264DVR server v1.0
+9530/tcp  open  unknown
+34567/tcp open  DIVR-IP Web server
+```
+The `H264DVR` server can be accessed using telnet and it gives access to a text console where commands can be inspected with a help function.
+
+## Firmware
 Firmware is contained in the `General_HZXM_IPC_HI3518E_50H10L_S38_V4.02.R12.20140926_ALL.bin` file that is basically a zip archive with the following files:
 * Install
 * InstallDesc
