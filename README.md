@@ -12,6 +12,12 @@ PORT      STATE SERVICE
 ```
 The `H264DVR` server can be accessed using telnet and it gives access to a text console where commands can be inspected with a help function.
 
+### Web port (80)
+Command for taking picture snapshots:
+```
+http://192.168.2.46/webcapture.jpg?command=snap&channel=0
+```
+
 ## Firmware
 Firmware is contained in the `General_HZXM_IPC_HI3518E_50H10L_S38_V4.02.R12.20140926_ALL.bin` file that is basically a zip archive with the following files:
 * Install
