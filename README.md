@@ -17,6 +17,11 @@ Command for taking picture snapshots:
 ```
 http://192.168.2.46/webcapture.jpg?command=snap&channel=0
 ```
+### RTSP port (554)
+Command for getting the video stream:
+```
+rtsp://192.168.2.46:554/user=admin&password=&channel=1&stream=0.sdp
+```
 
 ## Firmware
 Firmware is contained in the `General_HZXM_IPC_HI3518E_50H10L_S38_V4.02.R12.20140926_ALL.bin` file that is basically a zip archive with the following files:
