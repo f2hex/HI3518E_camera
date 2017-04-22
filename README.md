@@ -20,7 +20,7 @@ http://192.168.2.46/webcapture.jpg?command=snap&channel=0
 ### RTSP port (554)
 Command for getting the video stream:
 ```
-rtsp://192.168.2.46:554/user=admin&password=&channel=1&stream=0.sdp
+rtsp://admin:admin@192.168.2.48:8554/1.3gp
 ```
 
 ## Firmware
