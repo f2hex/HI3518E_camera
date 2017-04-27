@@ -6,6 +6,7 @@ The ports that are open on this device are:
 PORT      STATE SERVICE
 80/tcp    open  http
 554/tcp   open  rtsp
+8899/tcp  open  gSOAP/2.7 (ONVIF)
 9527/tcp  open  H264DVR server v1.0
 9530/tcp  open  unknown
 34567/tcp open  DIVR-IP Web server
