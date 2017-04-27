@@ -17,6 +17,12 @@ Command for taking picture snapshots:
 ```
 http://192.168.2.46/webcapture.jpg?command=snap&channel=0
 ```
+Moreover the web server is based on a `uc-httpd` software for which there are known vulnerabilities. One of those allow the 'directory' traversal exploitation. For example the following command, using `curl`allow the dump of the content of the `/etc/passwd` file:
+```
+curl --path-as-is -v -w "%{http_code}" 'http://192.168.2.46/../../../../../etc/passwd'
+```
+So it is quite easy to explore the whole filesystem space in the running netcam.
+
 ### RTSP port (554)
 Command for getting the video stream:
 ```
